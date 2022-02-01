@@ -1,0 +1,11 @@
+.landingHeader{
+ background-color: black;
+}
+.tituloLandingHeader{
+    display: flex;
+    justify-content: center;
+}
+.tituloLandingHeader h1{
+    padding: 10%;
+    font-family: 'Smooch', cursive;
+}

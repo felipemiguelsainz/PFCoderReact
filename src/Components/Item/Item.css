@@ -1,0 +1,41 @@
+.item{
+    width: 35%;
+    margin: 25px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.imgItem{
+    height: auto;
+    width: 100%;
+}
+.listaDatos > div{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.listaDatos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 35px;
+}
+.buttonComprarItem{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    padding: 5%;
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.linkComprarItem{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,70 @@
+.containerCart{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    min-height: 600px;
+}
+.cartVacio{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 1% 10%;
+    height: 70px;
+    align-items: center;
+}
+.cartEliminar{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.elimina{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 1% 10%;
+}
+.formCompra{
+    margin-bottom: 100px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+.imputFormCompra{
+    width: 100%;
+    margin: 1% 10%;
+    height: 50px;
+}
+#name{
+    border: 1px solid black;
+}
+.tituloForm{
+    margin: 5%;
+}
+.labelForm{
+    width: 100%;
+}
+#terminarCompra{
+    margin: 2% 40%;
+    border: 1px solid black;
+    padding: 2%;
+}
+.finalizarCompra{
+    display: flex;
+    justify-content:center;
+    margin-bottom:  2%;
+}

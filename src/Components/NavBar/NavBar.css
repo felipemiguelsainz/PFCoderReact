@@ -1,0 +1,30 @@
+.containerNavBar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 100%;
+    align-items: center;
+    padding: 2%;
+}
+.containerNavBar{
+    list-style: none;
+}
+.itemNavBar{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+.logoNavBar{
+    font-size: 30px;
+    font-family: 'Smooch', cursive;
+    text-decoration: none;
+    color: white;
+}
+.transparent{
+    background-color: rgb(0, 0, 0, 0);
+}
+.hoverLink:hover{
+    color: grey;
+    transition-duration: 200ms;
+}

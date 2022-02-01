@@ -1,0 +1,43 @@
+
+.modal .overlay{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+}
+.overlay{
+    background-color: rgb(0,0,0, 0.5);
+}
+.modalContent{
+    border-radius: 15px;
+    background-color: white;
+    flex-wrap: wrap;
+    margin: 5% 30%;
+    height: 70%;
+    padding: 4%;
+    display: flex;
+    line-height: 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+.modalContent >  h2, p{
+    width: 100%;
+}
+img{
+    border-radius: 10px;
+}
+.modalContent > button{
+    height: 30px;
+}
+.buttonModal{
+    border: 1px solid black;
+    padding: 2% 10%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.modalContent > img{
+    width: 100%;
+    height: auto;
+}
