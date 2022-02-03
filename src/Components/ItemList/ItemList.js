@@ -3,7 +3,7 @@ import Item from '../Item/Item.js'
 import './ItemList.css'
 import { useParams } from 'react-router-dom';
 import { collection, getDocs, query, where } from 'firebase/firestore';
-import {db} from '../../Components/Service/Firebase/Firebase.js'
+import {db} from '../../Service/Firebase/Firebase.js'
 
 
 function ItemList () {

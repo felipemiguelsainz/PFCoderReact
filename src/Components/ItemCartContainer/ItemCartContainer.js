@@ -2,7 +2,7 @@ import  useCartContext  from "../CartContext/CartContext.js";
 import ItemCart from "../ItemCart/ItemCart.js"
 import { useState } from 'react';
 import './ItemCartContainer.css'
-import { db } from '../Service/Firebase/Firebase'
+import { db } from '../../Service/Firebase/Firebase.js'
 import { addDoc, collection , doc , getDoc, Timestamp, writeBatch} from 'firebase/firestore'
 
 
@@ -29,6 +29,8 @@ function ItemCartContainer () {
                 const batch = writeBatch(db)
                 const outOfStock = []
 
+                console.log(objOrder)
+                
                 objOrder.items.forEach((prod) => {
                     getDoc(doc(db, 'items', prod.id)).then((documentSnapshot) => {
                         if(documentSnapshot.data().stock >= prod.qty) {
