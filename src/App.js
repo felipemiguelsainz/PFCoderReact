@@ -9,6 +9,7 @@ import Footer from './Components/Footer/Footer.js';
 
 function App() {
   return (
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <CartContextProvider>
       <BrowserRouter>
         <LandingHeader />
@@ -29,7 +30,7 @@ function App() {
       </BrowserRouter>
       <Footer />
     </CartContextProvider>
-    
+    </BrowserRouter>
   );
 }
 
