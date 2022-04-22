@@ -13,7 +13,7 @@ function ItemList () {
     
     useEffect(()=> {
         if (!categoryId){
-            getDocs(collection(db, 'items')).then((querySnapshot) =>{
+            getDocs(collection(db, 'products')).then((querySnapshot) =>{
             const items = querySnapshot.docs.map(doc => {
                 return{id: doc.id, ...doc.data()}
                 
@@ -22,7 +22,7 @@ function ItemList () {
         })  
         
     }else{
-        getDocs(query(collection(db, 'items'), where('category', '==', categoryId))).then((querySnapshot) =>{
+        getDocs(query(collection(db, 'products'), where('category', '==', categoryId))).then((querySnapshot) =>{
             const items = querySnapshot.docs.map(doc => {
                 return{id: doc.id, ...doc.data()}
             })

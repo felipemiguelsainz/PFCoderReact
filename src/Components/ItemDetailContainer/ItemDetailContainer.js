@@ -8,12 +8,12 @@ function ItemDetailContainer(){
     const [item, setItems] = useState(null)
     const {paramId} = useParams()
     useEffect(()=> {
-        (getDoc(doc(db, 'items', paramId)).then((querySnapshot) => {
+        (getDoc(doc(db, 'products', paramId)).then((querySnapshot) => {
             const item = {id: querySnapshot.id, ...querySnapshot.data()}
             setItems(item)
         }))
         setItems(item)
-    }, [paramId])
+    }, [paramId, item])
     return(
     <>
         {item? 

@@ -32,9 +32,9 @@ function ItemCartContainer () {
                 console.log(objOrder)
                 
                 objOrder.items.forEach((prod) => {
-                    getDoc(doc(db, 'items', prod.id)).then((documentSnapshot) => {
+                    getDoc(doc(db, 'products', prod.id)).then((documentSnapshot) => {
                         if(documentSnapshot.data().stock >= prod.qty) {
-                            batch.update(doc(db, 'items', documentSnapshot.id), {
+                            batch.update(doc(db, 'products', documentSnapshot.id), {
                                 stock: documentSnapshot.data().stock - prod.qty
                             })
                         } else {

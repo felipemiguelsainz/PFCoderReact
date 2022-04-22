@@ -6,18 +6,20 @@ import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer.js';
 import {CartContextProvider} from './Components/CartContext/CartContext.js'
 import Footer from './Components/Footer/Footer.js';
+import {db} from '../src/Service/Firebase/Firebase'
 
 function App() {
+  console.log(db)
+  
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <CartContextProvider>
       <BrowserRouter>
         <LandingHeader />
           <Switch>
-            <Route exact path='/'>
+            <Route path='/'>
                 <ItemCatalogo />
             </Route>
-            <Route exact path='/category/:categoryId'>
+            <Route path='/category/:categoryId'>
                 <ItemCatalogo />
             </Route>
             <Route path='/detail/:paramId'>
@@ -30,7 +32,7 @@ function App() {
       </BrowserRouter>
       <Footer />
     </CartContextProvider>
-    </BrowserRouter>
+    
   );
 }
 
