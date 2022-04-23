@@ -10,10 +10,10 @@ import {db} from '../src/Service/Firebase/Firebase'
 
 function App() {
   console.log(db)
-  
+
   return (
     <CartContextProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <LandingHeader />
           <Switch>
             <Route path='/'>
@@ -32,7 +32,7 @@ function App() {
       </BrowserRouter>
       <Footer />
     </CartContextProvider>
-    
+
   );
 }
 
