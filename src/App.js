@@ -13,13 +13,13 @@ function App() {
 
   return (
     <CartContextProvider>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <LandingHeader />
           <Switch>
-            <Route path='/'>
+            <Route exact path='/'>
                 <ItemCatalogo />
             </Route>
-            <Route path='/category/:categoryId'>
+            <Route exact path='/category/:categoryId'>
                 <ItemCatalogo />
             </Route>
             <Route path='/detail/:paramId'>
