@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/felipemiguelsainz/reactPF/static/css/main.ddf29d1d.chunk.css",
-    "main.js": "/felipemiguelsainz/reactPF/static/js/main.1c841b31.chunk.js",
-    "main.js.map": "/felipemiguelsainz/reactPF/static/js/main.1c841b31.chunk.js.map",
+    "main.js": "/felipemiguelsainz/reactPF/static/js/main.4ca71dc2.chunk.js",
+    "main.js.map": "/felipemiguelsainz/reactPF/static/js/main.4ca71dc2.chunk.js.map",
     "runtime-main.js": "/felipemiguelsainz/reactPF/static/js/runtime-main.ef9aeff9.js",
     "runtime-main.js.map": "/felipemiguelsainz/reactPF/static/js/runtime-main.ef9aeff9.js.map",
     "static/js/2.d9119283.chunk.js": "/felipemiguelsainz/reactPF/static/js/2.d9119283.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ef9aeff9.js",
     "static/js/2.d9119283.chunk.js",
     "static/css/main.ddf29d1d.chunk.css",
-    "static/js/main.1c841b31.chunk.js"
+    "static/js/main.4ca71dc2.chunk.js"
   ]
 }
