@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/felipemiguelsainz/reactPF/static/css/main.ddf29d1d.chunk.css",
-    "main.js": "/felipemiguelsainz/reactPF/static/js/main.4ca71dc2.chunk.js",
-    "main.js.map": "/felipemiguelsainz/reactPF/static/js/main.4ca71dc2.chunk.js.map",
-    "runtime-main.js": "/felipemiguelsainz/reactPF/static/js/runtime-main.ef9aeff9.js",
-    "runtime-main.js.map": "/felipemiguelsainz/reactPF/static/js/runtime-main.ef9aeff9.js.map",
-    "static/js/2.d9119283.chunk.js": "/felipemiguelsainz/reactPF/static/js/2.d9119283.chunk.js",
-    "static/js/2.d9119283.chunk.js.map": "/felipemiguelsainz/reactPF/static/js/2.d9119283.chunk.js.map",
-    "static/js/3.92ee0c5c.chunk.js": "/felipemiguelsainz/reactPF/static/js/3.92ee0c5c.chunk.js",
-    "static/js/3.92ee0c5c.chunk.js.map": "/felipemiguelsainz/reactPF/static/js/3.92ee0c5c.chunk.js.map",
-    "index.html": "/felipemiguelsainz/reactPF/index.html",
-    "static/css/main.ddf29d1d.chunk.css.map": "/felipemiguelsainz/reactPF/static/css/main.ddf29d1d.chunk.css.map",
-    "static/js/2.d9119283.chunk.js.LICENSE.txt": "/felipemiguelsainz/reactPF/static/js/2.d9119283.chunk.js.LICENSE.txt"
+    "main.css": "/ReactPF/static/css/main.ddf29d1d.chunk.css",
+    "main.js": "/ReactPF/static/js/main.6581a48a.chunk.js",
+    "main.js.map": "/ReactPF/static/js/main.6581a48a.chunk.js.map",
+    "runtime-main.js": "/ReactPF/static/js/runtime-main.3690bbc4.js",
+    "runtime-main.js.map": "/ReactPF/static/js/runtime-main.3690bbc4.js.map",
+    "static/js/2.47ac1fec.chunk.js": "/ReactPF/static/js/2.47ac1fec.chunk.js",
+    "static/js/2.47ac1fec.chunk.js.map": "/ReactPF/static/js/2.47ac1fec.chunk.js.map",
+    "static/js/3.92ee0c5c.chunk.js": "/ReactPF/static/js/3.92ee0c5c.chunk.js",
+    "static/js/3.92ee0c5c.chunk.js.map": "/ReactPF/static/js/3.92ee0c5c.chunk.js.map",
+    "index.html": "/ReactPF/index.html",
+    "static/css/main.ddf29d1d.chunk.css.map": "/ReactPF/static/css/main.ddf29d1d.chunk.css.map",
+    "static/js/2.47ac1fec.chunk.js.LICENSE.txt": "/ReactPF/static/js/2.47ac1fec.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ef9aeff9.js",
-    "static/js/2.d9119283.chunk.js",
+    "static/js/runtime-main.3690bbc4.js",
+    "static/js/2.47ac1fec.chunk.js",
     "static/css/main.ddf29d1d.chunk.css",
-    "static/js/main.4ca71dc2.chunk.js"
+    "static/js/main.6581a48a.chunk.js"
   ]
 }
