@@ -1,14 +1,11 @@
-import ItemList from "../ItemList/ItemList.js";
-import '../ItemCatalogo/ItemCatalogo.css'
-import {db} from '../../Service/Firebase/Firebase'
+import ItemList from '../ItemList/ItemList.js';
+import '../ItemCatalogo/ItemCatalogo.css';
 
-
-function ItemCatalogo(){
-    console.log(db)
-    return(
+function ItemCatalogo() {
+    return (
         <div className='catalogo'>
-            <ItemList/>
+            <ItemList />
         </div>
-    )
+    );
 }
 export default ItemCatalogo;
